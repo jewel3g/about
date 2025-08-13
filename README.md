@@ -56,9 +56,7 @@ I’m **Anaet**, an Electronics and Embedded Systems Engineer based in Germany w
 - LinkedIn: [linkedin.com/in/jewel3g](https://linkedin.com/in/jewel3g)  
 - Location: Offenbach am Main, Germany  
 
----
 
-### ⭐ If you like my work, feel free to star my repos!
 
 ---
 
