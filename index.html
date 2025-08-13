@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MD Anaet Ullah – Electronics & Embedded Systems Portfolio</title>
+  <meta name="description" content="Portfolio of MD Anaet Ullah – Electronics Engineer and Embedded Systems Developer based in Germany. Projects, experience, skills, and contact."/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="MD Anaet Ullah – Portfolio" />
+  <meta property="og:description" content="Electronics & Embedded Systems • IoT • PCB Design • EMC/EMI" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect width='100%25' height='100%25' fill='%230f172a'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='56' font-family='Segoe UI, Roboto, Helvetica, Arial, sans-serif'%3EMD Anaet Ullah%3C/text%3E%3C/svg%3E" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E⚙️%3C/text%3E%3C/svg%3E">
+
+  <style>
+    :root{
+      --bg: #0b1020;          /* deep navy */
+      --panel:#0f172a;        /* slate-900 */
+      --muted:#94a3b8;        /* slate-400 */
+      --text:#e5e7eb;         /* gray-200 */
+      --accent:#22d3ee;       /* cyan-400 */
+      --accent-2:#a78bfa;     /* violet-400 */
+      --chip:#1f2937;         /* gray-800 */
+      --ring: rgba(34,211,238,.4);
+      --ok:#10b981;
+      --warn:#f59e0b;
+      --danger:#ef4444;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1000px 600px at 10% -10%, rgba(167,139,250,.15), transparent 60%),
+                  radial-gradient(900px 500px at 90% 10%, rgba(34,211,238,.12), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .container{max-width:1100px; margin:0 auto; padding:0 20px}
+
+    /* Header */
+    header{
+      position:sticky; top:0; z-index:50; backdrop-filter:saturate(180%) blur(10px);
+      background:linear-gradient(180deg, rgba(15,23,42,.9), rgba(15,23,42,.6));
+      border-bottom:1px solid rgba(148,163,184,.15);
+    }
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
+    .brand{display:flex; gap:12px; align-items:center}
+    .brand .logo{width:36px; height:36px; display:grid; place-items:center; border-radius:10px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow:0 0 0 3px rgba(34,211,238,.15)}
+    .brand h1{margin:0; font-size:18px; letter-spacing:.3px}
+    nav ul{display:flex; gap:18px; list-style:none; margin:0; padding:0}
+    nav a{padding:8px 10px; border-radius:10px}
+    nav a:hover{background:rgba(148,163,184,.1); text-decoration:none}
+
+    /* Hero */
+    .hero{padding:64px 0 24px}
+    .hero .wrap{display:grid; grid-template-columns:1.2fr .8fr; gap:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)); border:1px solid rgba(148,163,184,.12); border-radius:18px; padding:24px; box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .kpi{display:flex; gap:18px; flex-wrap:wrap; margin-top:10px}
+    .chip{padding:8px 12px; border-radius:999px; background:var(--chip); border:1px solid rgba(148,163,184,.15); font-size:14px}
+    .cta{display:flex; gap:12px; margin-top:22px; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 16px; border-radius:12px; border:1px solid rgba(148,163,184,.2); background:#0b1224; box-shadow:0 10px 20px rgba(0,0,0,.25); cursor:pointer}
+    .btn.primary{background:linear-gradient(135deg, var(--accent), var(--accent-2)); color:#0b1020; font-weight:700}
+    .btn:hover{transform:translateY(-1px)}
+
+    /* Sections */
+    section{padding:42px 0}
+    section h2{font-size:26px; margin:0 0 16px}
+    .grid{display:grid; gap:18px}
+    .two{grid-template-columns:repeat(2, minmax(0,1fr))}
+    .three{grid-template-columns:repeat(3, minmax(0,1fr))}
+
+    /* Cards */
+    .item{border:1px solid rgba(148,163,184,.12); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); padding:18px}
+    .item h3{margin:0 0 6px; font-size:18px}
+    .meta{color:var(--muted); font-size:14px}
+    .item ul{margin:10px 0 0 20px}
+
+    /* Footer */
+    footer{padding:36px 0 60px; color:var(--muted); text-align:center; border-top:1px solid rgba(148,163,184,.15)}
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hero .wrap{grid-template-columns:1fr}
+      .three{grid-template-columns:1fr}
+      .two{grid-template-columns:1fr}
+    }
+
+    /* Print */
+    @media print{
+      header, .cta {display:none}
+      body{background:#fff; color:#000}
+      .card, .item{box-shadow:none; border-color:#ddd}
+    }
+  </style>
+
+  <!-- Schema.org Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "MD Anaet Ullah",
+    "jobTitle": "Electronics & Embedded Systems Engineer",
+    "address": {"@type":"PostalAddress","addressLocality":"Offenbach am Main","addressCountry":"DE"},
+    "email": "mailto:anaetcpi@gmail.com",
+    "url": "https://github.com/jewel3g",
+    "sameAs": [
+      "https://www.linkedin.com/in/jewel3g"
+    ],
+    "knowsAbout": ["Embedded C/C++","STM32","ESP32","LoRa","LTE","EMC/EMI","PCB Design","KiCAD","Altium","IoT"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">⚙️</div>
+        <h1>MD Anaet Ullah</h1>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container wrap">
+        <div class="card">
+          <h2 style="margin-top:0; font-size:28px">Electronics & Embedded Systems Engineer</h2>
+          <p style="margin:8px 0 0; color:var(--muted)">Designing reliable hardware, high‑quality firmware, and IoT solutions that connect ideas to reality. Based in Germany.</p>
+          <div class="kpi">
+            <span class="chip" title="Experience">4+ yrs experience</span>
+            <span class="chip" title="Location">Offenbach am Main</span>
+            <span class="chip" title="Languages">EN / BN / DE(A1)</span>
+          </div>
+          <div class="cta">
+            <a class="btn primary" href="#projects" aria-label="See projects">
+              <!-- play icon -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+              See Projects
+            </a>
+            <a class="btn" href="https://github.com/jewel3g" target="_blank" rel="noopener">GitHub Profile</a>
+            <a class="btn" href="https://www.linkedin.com/in/jewel3g" target="_blank" rel="noopener">LinkedIn</a>
+            <!-- NOTE: Replace the href with your public resume link after uploading it to GitHub or a drive. -->
+            <a class="btn" href="#" onclick="alert('Upload your CV PDF to a public link and update this button href.'); return false;">Download CV (PDF)</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 8px">Highlights</h3>
+          <ul style="margin:0 0 6px 18px">
+            <li>Embedded C/C++ on STM32, AVR, ESP32; bare‑metal & RTOS</li>
+            <li>High‑speed & RF PCB design (KiCAD/Altium); signal integrity & EMI reduction</li>
+            <li>EMC/EMI testing (CISPR/IEC); DO‑160/MIL exposure</li>
+            <li>Wireless: LoRa, LTE; Cloud: MQTT/Firebase</li>
+          </ul>
+          <div class="kpi" style="margin-top:14px">
+            <span class="chip">Oscilloscope</span>
+            <span class="chip">Logic Analyzer</span>
+            <span class="chip">Spectrum Analyzer</span>
+            <span class="chip">LTspice</span>
+            <span class="chip">STM32CubeIDE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="item">
+          <p>Hello, I’m Anaet — a dedicated, detail‑oriented engineer with a track record of building dependable embedded systems and electronics for aerospace, renewable energy, and industrial IoT. I enjoy turning constraints into elegant hardware/firmware designs and validating them in the lab.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="grid two">
+          <div class="item">
+            <h3>Electronics Development Engineer</h3>
+            <div class="meta">Vectoflow GmbH • 04/2024 – 05/2025 • Gilching, Germany</div>
+            <ul>
+              <li>Designed aerospace/industrial electronics; contributed to reviews and process improvements.</li>
+              <li>EMC testing per CISPR & IEC; quality inspections aligned with DO‑160/MIL practices.</li>
+              <li>Firmware integration, debugging, and reliability improvements.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Embedded System Developer</h3>
+            <div class="meta">Solarnative GmbH • 03/2023 – 02/2024 • Lohfelden, Germany</div>
+            <ul>
+              <li>Firmware for micro‑inverters; designed LTE/LoRa communication interfaces.</li>
+              <li>Electronic circuit design and PCB layout; created technical documentation.</li>
+              <li>Hardware validation using spectrum/oscilloscope/LCR/signal gen/AC source.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>IoT Engineer</h3>
+            <div class="meta">Code 19 • 01/2022 – 07/2022 • Dhaka, Bangladesh</div>
+            <ul>
+              <li>Led full‑stack IoT development from concept to deployment.</li>
+              <li>Architected plug‑and‑play industrial IoT devices and power electronics (AC/DC, DC/AC, DC/DC).</li>
+              <li>Ensured compliance with evolving IoT standards and protocols.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid three">
+          <article class="item">
+            <h3>Reactive Power Correction (On‑Grid Inverter)</h3>
+            <div class="meta">DSP control • PF &gt; 0.98 • −15% line losses</div>
+            <p>Closed‑loop control algorithms with optimized reactive power injection for grid‑tied inverters.</p>
+            <p><a href="https://github.com/jewel3g/Reactive-Power-Correction" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+          <article class="item">
+            <h3>High‑Efficiency Power Circuits</h3>
+            <div class="meta">DC‑DC buck/boost • AC‑DC • &gt;92% efficiency</div>
+            <p>Power‑conversion designs with thermal and layout optimizations to boost performance.</p>
+            <p><a href="https://github.com/jewel3g/High-Efficiency-Power-Circuits" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+          <article class="item">
+            <h3>Vector DAQ 2</h3>
+            <div class="meta">24‑bit ADC • Anti‑alias filters • &lt;0.5% repeatability</div>
+            <p>Precision DAQ PCB for extreme environments (−20 °C to +85 °C) with robust signal chain.</p>
+            <p><a href="https://github.com/jewel3g/Vector-DAQ2" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+          <article class="item">
+            <h3>IoT Smart Parking</h3>
+            <div class="meta">ESP8266 • Ultrasonics • Firebase/MQTT</div>
+            <p>End‑to‑end IoT system for real‑time parking availability and access control.</p>
+            <p><a href="https://github.com/jewel3g/IoT-Smart-Parking" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+          <article class="item">
+            <h3>ESP32‑C3 Utilities</h3>
+            <div class="meta">Firmware templates • Diagnostics</div>
+            <p>Reusable components and templates for quick bring‑up and testing on ESP32‑C3 projects.</p>
+            <p><a href="https://github.com/jewel3g/esp32-c3-utilities" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+          <article class="item">
+            <h3>Embedded Systems Resources</h3>
+            <div class="meta">Starter kits • Checklists • Snippets</div>
+            <p>Curated notes, templates, and checklists I use for reliable embedded delivery.</p>
+            <p><a href="https://github.com/jewel3g/embedded-systems-resources" target="_blank" rel="noopener">Repository →</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid two">
+          <div class="item">
+            <h3>Embedded & Firmware</h3>
+            <div class="kpi">
+              <span class="chip">C/C++ (bare‑metal)</span>
+              <span class="chip">RTOS</span>
+              <span class="chip">STM32 / AVR / ESP32</span>
+              <span class="chip">Low‑power</span>
+              <span class="chip">BLE/LoRa/LTE</span>
+              <span class="chip">MQTT/Firebase</span>
+            </div>
+          </div>
+          <div class="item">
+            <h3>Hardware & Validation</h3>
+            <div class="kpi">
+              <span class="chip">KiCAD</span>
+              <span class="chip">Altium</span>
+              <span class="chip">LTspice</span>
+              <span class="chip">Signal Integrity</span>
+              <span class="chip">EMI/EMC</span>
+              <span class="chip">FCC/CE • CISPR/IEC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="grid two">
+          <div class="item">
+            <p class="meta">I’m open to roles in embedded systems, electronics design, and IoT. Let’s talk.</p>
+            <div class="kpi">
+              <a class="btn" href="mailto:anaetcpi@gmail.com">Email: anaetcpi@gmail.com</a>
+              <button class="btn" id="copyMail" type="button">Copy Email</button>
+            </div>
+          </div>
+          <div class="item">
+            <ul style="margin:0; padding-left:18px">
+              <li>Location: Offenbach am Main, Germany</li>
+              <li>Languages: English (Professional), Bangla (Native), German (A1)</li>
+              <li>GitHub: <a href="https://github.com/jewel3g" target="_blank" rel="noopener">github.com/jewel3g</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/jewel3g" target="_blank" rel="noopener">linkedin.com/in/jewel3g</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> MD Anaet Ullah • Built with semantic HTML & a sprinkle of CSS</div>
+  </footer>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Copy email
+    document.getElementById('copyMail').addEventListener('click', () => {
+      navigator.clipboard.writeText('anaetcpi@gmail.com');
+      const btn = document.getElementById('copyMail');
+      const prev = btn.textContent;
+      btn.textContent = 'Copied!';
+      btn.style.boxShadow = `0 0 0 4px var(--ring)`;
+      setTimeout(()=>{ btn.textContent = prev; btn.style.boxShadow = ''; }, 1200);
+    });
+  </script>
+</body>
+</html>
