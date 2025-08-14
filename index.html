@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pruthviraj Mundargi</title>
+
+    <!-- Stylesheets -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.cdnfonts.com/css/agustina" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Images/project imgs/favicon.ico"
+    />
+  </head>
+  <body>
+    <i class="fa fa-arrow-up" aria-hidden="true" onclick="scrollToTop();"></i>
+
+    <!-- Section 1: Home -->
+    <section class="sec1" id="sectionHome">
+      <div class="menuBar">
+        <ul>
+          <li><a href="#sectionHome">Home</a></li>
+          <li><a href="#sectionAbout">About</a></li>
+          <li><a href="#sectionExperience">Experience</a></li>
+          <li><a href="#sectionProjects">Projects</a></li>
+          <li><a href="#sectionSkills">Skills</a></li>
+          <li><a href="#sectionContact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navBar">
+        <div class="logo">
+          <h1><span class="fullNameElement"></span></h1>
+        </div>
+        <div class="navBar__menu">
+          <ul>
+            <li><a href="#sectionHome">Home</a></li>
+            <li><a href="#sectionAbout">About</a></li>
+            <li><a href="#sectionExperience">Experience</a></li>
+            <li><a href="#sectionSkills">Skills</a></li>
+            <li><a href="#sectionProjects">Projects</a></li>
+            <li><a href="#sectionContact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sec1__menuIcon"></div>
+      </div>
+      <div class="sec1__container">
+        <div class="sec1__content">
+          <div class="sec1__contentDetail">
+            <div class="sec1__contentHider">
+              <h1>hi,</h1>
+            </div>
+            <div class="sec1__contentHider">
+              <h1>I&prime;m <span class="firstNameElement"></span></h1>
+            </div>
+            <div class="sec1__contentHider">
+              <h2><span class="roleElement"></span></h2>
+            </div>
+          </div>
+          <div class="socialLinksContainer">
+            <div class="socialRow">
+              <a class="social-btn githubLinkElement"
+                >Github &nbsp<i class="fab fa-github"></i
+              ></a>
+              <a class="social-btn linkedinLinkElement"
+                >LinkedIn &nbsp<i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+            <div class="socialRow">
+              <a class="social-btn digitalresumeLinkElement">
+                Digital Resume &nbsp<i class="fab fa-readme"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--
+          <a href="https://pruthviraj-guddu.github.io/PruthvirajResume.html"
+            >Digital Resume
+            <i class="fa-regular fa-pen-nib"></i>
+          </a>
+          -->
+        </div>
+        <div class="sec1__imgContainer">
+          <div class="sec1__imgBx">
+            <img src="./Images/website icon/IMG_3818.heic.png" alt="" />
+            <span class="sec1__design1"></span>
+            <span class="sec1__design2"></span>
+            <span class="sec1__design3"></span>
+            <span class="sec1__design4"></span>
+          </div>
+        </div>
+      </div>
+      <canvas class="particles-js"></canvas>
+    </section>
+
+    <!-- Section 2: About Me -->
+    <section class="sec2" id="sectionAbout">
+      <div class="sec2__heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="sec2__container">
+        <div class="sec2__aboutme1" data-aos="fade-up" data-aos-offset="-90">
+          <div class="sec2__aboutme1Img">
+            <img id="profileImageElement" alt="Pruthviraj Guddu" />
+          </div>
+          <h2 class="firstNameElement"></h2>
+          <br />
+          <h3 class="titleElement"></h3>
+          <div class="sec2__aboutme1Social">
+            <div class="socialLinksContainer">
+              <!-- ui elements -->
+              <ul class="example-2">
+                <!--insert dynamic buttons-->
+
+                <!--end ------->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sec2__aboutme2" data-aos="fade-up" data-aos-delay="1000">
+          <br />
+          <p id="aboutSummary"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Education -->
+    <section id="sectionEducation" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>Education</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            class="col-12"
+            id="educationInjector"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Work Experience -->
+    <section id="sectionExperience" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>Work Experience</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            class="col-12"
+            id="work-experience"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          >
+            <!-- Work experience will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Skills -->
+    <section id="sectionSkills" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz featurette">
+          <div class="col-md-12 section-heading">
+            <h1>Skills</h1>
+            <hr color="#e66060" />
+          </div>
+          <div id="skills-container" data-aos="fade-up" data-aos-offset="-90">
+            <!-- Skills will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Projects -->
+    <section id="sectionProjects" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>Projects</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            id="projects-container"
+            class="projects-grid"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          >
+            <!-- Projects will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end of projects section-->
+
+    <!-- certification sectiondynamic  start-->
+    <!-- Section 7: Certifications -->
+    <section id="sectionCertifications" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>Certifications</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            id="certifications-container"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          >
+            <!-- Certifications will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--certification dynamic end-->
+
+    <!--Quote dynamic start-->
+    <section class="quoteComponent">
+      <blockquote class="zitat1">
+        <span id="quotePageElement"></span>
+        <cite id="quoteSource"></cite>
+      </blockquote>
+    </section>
+
+    <!--Quote dynamic end-->
+
+    <!-- Section 7: Contact -->
+    <section class="sec4" id="sectionContact">
+      <div class="sec4__container">
+        <div class="sec4__box1">
+          <div class="sec4__content1" data-aos="fade-right">
+            <h2>
+              <span class="firstNameElement"></span>
+              <span class="nicknameElement"></span> 😊
+            </h2>
+            <p id="footerTextElement"></p>
+          </div>
+          <div
+            class="sec4__content2"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <!-- Phone -->
+            <div class="sec4__content2Icon">
+              <i class="fas fa-phone-alt"></i>
+              <h2><a class="phoneElement" style="color: white"></a></h2>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="sec4__content2Icon">
+              <i class="fab fa-whatsapp"></i>
+              <h2><a class="whatsappElement" style="color: white"></a></h2>
+            </div>
+
+            <!-- Email -->
+            <div class="sec4__content2Icon">
+              <i class="fas fa-envelope"></i>
+              <h2><a class="emailElement" style="color: white"></a></h2>
+            </div>
+          </div>
+
+          <div
+            class="sec4__content3"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
+            <ul>
+              <li>
+                <a class="social-btn githubLinkElement" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social-btn linkedinLinkElement" target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sec4__box2" data-aos="fade-in" data-aos-delay="500">
+          <h2>Quick links</h2>
+          <div class="sec4__links">
+            <ul>
+              <li><a href="#sectionHome">Home</a></li>
+              <li><a href="#sectionAbout">About</a></li>
+              <li><a href="#sectionExperience">Experience</a></li>
+              <li><a href="#sectionSkills">Skills</a></li>
+              <li><a href="#sectionProjects">Projects</a></li>
+              <li><a href="#sectionContact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sec4__box3">
+          <h2>Contact me</h2>
+          <form>
+            <input
+              data-aos="fade-left"
+              data-aos-delay="500"
+              class="sec4__name"
+              type="text"
+              placeholder="Enter your Name"
+              required
+            />
+            <input
+              data-aos="fade-left"
+              data-aos-delay="800"
+              class="sec4__email"
+              type="email"
+              placeholder="Enter your Email"
+              required
+            />
+            <input
+              class="sec4__message"
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              type="text"
+              placeholder="Enter the feedback or suggestion"
+              required
+            />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!--<div class="footer-body">
+        <div>The Programmer</div>
+        <br />
+        <div>
+          <p>
+            The Life of a Programmer, error 404 sleep not found.<br />
+            We have no life, we are just a machine that turns coffee into code.
+          </p>
+          <ul>
+            <li>
+              <a class="social-btn githubLinkElement" target="_blank">Github</a>
+            </li>
+            <li>
+              <a class="social-btn linkedinLinkElement" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li><a class="social-btn mailElement">Email</a></li>
+          </ul>
+        </div>
+      </div>-->
+      <div class="footer-copyright">
+        © <span class="fullNameElement"></span> <span id="currentYear"></span>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./javascript/data.js"></script>
+    <script src="./javascript/script.js"></script>
+    <script src="./javascript/imageData.js"></script>
+  </body>
+</html>
