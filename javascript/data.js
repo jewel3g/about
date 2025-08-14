@@ -93,7 +93,10 @@ window.data = {
       spotify: {
         username: "pruthviraj-guddu",
         url: "https://open.spotify.com/user/380kykw88jo9graxxyk4xch45",
-      
+         },
+
+      //https://open.spotify.com/user/380kykw88jo9graxxyk4xch45
+    },
   },
 
   education: [
