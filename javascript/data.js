@@ -90,12 +90,7 @@ window.data = {
         username: "pruthviraj-guddu",
         url: "https://stackoverflow.com/users/4413573/pruthviraj-guddu",
       },
-      spotify: {
-        username: "pruthviraj-guddu",
-        url: "https://open.spotify.com/user/380kykw88jo9graxxyk4xch45",
-         },
-
-      //https://open.spotify.com/user/380kykw88jo9graxxyk4xch45
+  
     },
   },
 
