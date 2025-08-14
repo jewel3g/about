@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pruthviraj Mundargi</title>
+    <title>MD Anaet Ullah - Embedded Systems Engineer</title>
 
     <!-- Stylesheets -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -15,20 +15,13 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-
-    <link href="https://fonts.cdnfonts.com/css/agustina" rel="stylesheet" />
-
     <link rel="stylesheet" href="style.css" />
 
     <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="Images/project imgs/favicon.ico"
-    />
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
   </head>
   <body>
     <i class="fa fa-arrow-up" aria-hidden="true" onclick="scrollToTop();"></i>
@@ -76,30 +69,23 @@
           </div>
           <div class="socialLinksContainer">
             <div class="socialRow">
-              <a class="social-btn githubLinkElement"
+              <a class="social-btn githubLinkElement" target="_blank"
                 >Github &nbsp<i class="fab fa-github"></i
               ></a>
-              <a class="social-btn linkedinLinkElement"
+              <a class="social-btn linkedinLinkElement" target="_blank"
                 >LinkedIn &nbsp<i class="fab fa-linkedin"></i
               ></a>
             </div>
             <div class="socialRow">
-              <a class="social-btn digitalresumeLinkElement">
+              <a class="social-btn digitalresumeLinkElement" target="_blank">
                 Digital Resume &nbsp<i class="fab fa-readme"></i>
               </a>
             </div>
           </div>
-
-          <!--
-          <a href="https://pruthviraj-guddu.github.io/PruthvirajResume.html"
-            >Digital Resume
-            <i class="fa-regular fa-pen-nib"></i>
-          </a>
-          -->
         </div>
         <div class="sec1__imgContainer">
           <div class="sec1__imgBx">
-            <img src="./Images/website icon/IMG_3818.heic.png" alt="" />
+            <img src="./Images/profile.jpg" alt="MD Anaet Ullah" />
             <span class="sec1__design1"></span>
             <span class="sec1__design2"></span>
             <span class="sec1__design3"></span>
@@ -118,18 +104,29 @@
       <div class="sec2__container">
         <div class="sec2__aboutme1" data-aos="fade-up" data-aos-offset="-90">
           <div class="sec2__aboutme1Img">
-            <img id="profileImageElement" alt="Pruthviraj Guddu" />
+            <img id="profileImageElement" src="./Images/profile.jpg" alt="MD Anaet Ullah" />
           </div>
           <h2 class="firstNameElement"></h2>
           <br />
           <h3 class="titleElement"></h3>
           <div class="sec2__aboutme1Social">
             <div class="socialLinksContainer">
-              <!-- ui elements -->
               <ul class="example-2">
-                <!--insert dynamic buttons-->
-
-                <!--end ------->
+                <li>
+                  <a class="social-btn githubLinkElement" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-btn linkedinLinkElement" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-btn emailElement" href="mailto:anaetcoj@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -184,7 +181,7 @@
       <div class="containerzz">
         <div class="rowzz featurette">
           <div class="col-md-12 section-heading">
-            <h1>Skills</h1>
+            <h1>Technical Skills</h1>
             <hr color="#e66060" />
           </div>
           <div id="skills-container" data-aos="fade-up" data-aos-offset="-90">
@@ -214,15 +211,12 @@
       </div>
     </section>
 
-    <!--end of projects section-->
-
-    <!-- certification sectiondynamic  start-->
     <!-- Section 7: Certifications -->
     <section id="sectionCertifications" class="home-section wg-featurette">
       <div class="containerzz">
         <div class="rowzz">
           <div class="col-md-12 section-heading">
-            <h1>Certifications</h1>
+            <h1>Certifications & Training</h1>
             <hr color="#e66060" />
           </div>
           <div
@@ -236,7 +230,43 @@
       </div>
     </section>
 
-    <!--certification dynamic end-->
+    <!-- Section 8: Conferences -->
+    <section id="sectionConferences" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>Conferences & Participation</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            id="conferences-container"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          >
+            <!-- Conferences will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: References -->
+    <section id="sectionReferences" class="home-section wg-featurette">
+      <div class="containerzz">
+        <div class="rowzz">
+          <div class="col-md-12 section-heading">
+            <h1>References</h1>
+            <hr color="#e66060" />
+          </div>
+          <div
+            id="references-container"
+            data-aos="fade-up"
+            data-aos-offset="-90"
+          >
+            <!-- References will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--Quote dynamic start-->
     <section class="quoteComponent">
@@ -246,16 +276,14 @@
       </blockquote>
     </section>
 
-    <!--Quote dynamic end-->
-
-    <!-- Section 7: Contact -->
+    <!-- Section 10: Contact -->
     <section class="sec4" id="sectionContact">
       <div class="sec4__container">
         <div class="sec4__box1">
           <div class="sec4__content1" data-aos="fade-right">
             <h2>
               <span class="firstNameElement"></span>
-              <span class="nicknameElement"></span> 😊
+              <span class="nicknameElement"></span>
             </h2>
             <p id="footerTextElement"></p>
           </div>
@@ -281,6 +309,12 @@
               <i class="fas fa-envelope"></i>
               <h2><a class="emailElement" style="color: white"></a></h2>
             </div>
+
+            <!-- Address -->
+            <div class="sec4__content2Icon">
+              <i class="fas fa-map-marker-alt"></i>
+              <h2><a class="addressElement" style="color: white"></a></h2>
+            </div>
           </div>
 
           <div
@@ -297,6 +331,11 @@
               <li>
                 <a class="social-btn linkedinLinkElement" target="_blank"
                   ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social-btn emailElement" href="mailto:anaetcoj@gmail.com"
+                  ><i class="fas fa-envelope"></i
                 ></a>
               </li>
             </ul>
@@ -317,12 +356,13 @@
         </div>
         <div class="sec4__box3">
           <h2>Contact me</h2>
-          <form>
+          <form id="contactForm" method="POST">
             <input
               data-aos="fade-left"
               data-aos-delay="500"
               class="sec4__name"
               type="text"
+              name="name"
               placeholder="Enter your Name"
               required
             />
@@ -331,47 +371,27 @@
               data-aos-delay="800"
               class="sec4__email"
               type="email"
+              name="email"
               placeholder="Enter your Email"
               required
             />
-            <input
+            <textarea
               class="sec4__message"
               data-aos="fade-left"
               data-aos-delay="1000"
-              type="text"
-              placeholder="Enter the feedback or suggestion"
+              name="message"
+              placeholder="Enter your message"
               required
-            />
-            <button type="submit">Send</button>
+            ></textarea>
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </div>
     </section>
 
     <footer>
-      <!--<div class="footer-body">
-        <div>The Programmer</div>
-        <br />
-        <div>
-          <p>
-            The Life of a Programmer, error 404 sleep not found.<br />
-            We have no life, we are just a machine that turns coffee into code.
-          </p>
-          <ul>
-            <li>
-              <a class="social-btn githubLinkElement" target="_blank">Github</a>
-            </li>
-            <li>
-              <a class="social-btn linkedinLinkElement" target="_blank"
-                >LinkedIn</a
-              >
-            </li>
-            <li><a class="social-btn mailElement">Email</a></li>
-          </ul>
-        </div>
-      </div>-->
       <div class="footer-copyright">
-        © <span class="fullNameElement"></span> <span id="currentYear"></span>
+        © <span class="fullNameElement"></span> <span id="currentYear"></span> | Embedded Systems Engineer
       </div>
     </footer>
 
@@ -382,9 +402,32 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
     <script src="./javascript/data.js"></script>
     <script src="./javascript/script.js"></script>
-    <script src="./javascript/imageData.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+
+      // Initialize particles.js
+      particlesJS.load('particles-js', './javascript/particles.json', function() {
+        console.log('Particles.js loaded');
+      });
+
+      // Set current year in footer
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      // Form submission handler
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Here you would typically send the form data to a server
+        alert('Thank you for your message! I will get back to you soon.');
+        this.reset();
+      });
+    </script>
   </body>
 </html>
