@@ -3,14 +3,14 @@ window.data = {
     theme: "actual",
   },
   about: {
-    firstName: "Pruthviraj",
-    fullName: "Pruthviraj Mundargi",
-    nickname: "Guddu",
+    firstName: "MD Anaet",
+    fullName: "MD Anaet Ullah",
+    nickname: "Jewel",
     title: "The Nerd",
-    role: "Software Developer 😊",
+    role: "Embedded System Engineer",
     profileImage: "https://avatars.githubusercontent.com/u/59650445?v=4",
     summary: `
-      My name is Pruthviraj Mundargi aka <b>Guddu</b>, a passionate software developer with a Master's in Computer Science from
+      Hi This is Anaet Ullah  <b>Guddu</b>, a passionate Embedded System Engineer with B.Sc's in Electrical and  Science from
       <u>Drexel University</u>, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development,
       I specialize in building dynamic, scalable solutions using technologies like <b>Xamarin</b>, <b>C#</b>, <b>SQL</b>, <b>AngularJS</b>, <b>NodeJS</b>, and more.
 
