@@ -7,7 +7,7 @@ window.data = {
     fullName: "Ullah",
     nickname: "Jewel",
     title: "The Nerd",
-    role: "",
+    role: "Embedded System Engineer",
     profileImage: "https://avatars.githubusercontent.com/u/21116110?v=4",
     summary: `
       My name is Pruthviraj Mundargi aka <b>Guddu</b>, a passionate software developer with a Master's in Computer Science from
@@ -93,10 +93,7 @@ window.data = {
       spotify: {
         username: "pruthviraj-guddu",
         url: "https://open.spotify.com/user/380kykw88jo9graxxyk4xch45",
-      },
-
-      //https://open.spotify.com/user/380kykw88jo9graxxyk4xch45
-    },
+      
   },
 
   education: [
