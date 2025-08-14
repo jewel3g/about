@@ -1,201 +1,155 @@
 window.data = {
   meta: {
-    theme: "embedded",  // Changed to a more technical theme
+    theme: "actual",
   },
   about: {
-    firstName: "MD Anaet",
-    fullName: "MD Anaet Ullah",
-    nickname: "Anaet",
-    title: "Embedded Systems Engineer",
-    role: "Electronics Engineer | IoT Specialist",
-    profileImage: "https://avatars.githubusercontent.com/u/59650445?v=4", // Should update with his photo
+    firstName: "Pruthviraj",
+    fullName: "Pruthviraj Mundargi",
+    nickname: "Guddu",
+    title: "The Nerd",
+    role: "Software Developer 😊",
+    profileImage: "https://avatars.githubusercontent.com/u/59650445?v=4",
     summary: `
-      I am MD Anaet Ullah, a dedicated and detail-oriented Embedded Systems Engineer with 4 years of experience in designing, developing, and testing microcontroller-based systems. 
-      Skilled in embedded C/C++, analog and digital circuit design, and working with STM32 microcontrollers. Passionate about creating reliable and high-quality solutions for real-world applications.
+      My name is Pruthviraj Mundargi aka <b>Guddu</b>, a passionate software developer with a Master's in Computer Science from
+      <u>Drexel University</u>, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development,
+      I specialize in building dynamic, scalable solutions using technologies like <b>Xamarin</b>, <b>C#</b>, <b>SQL</b>, <b>AngularJS</b>, <b>NodeJS</b>, and more.
 
       <br /><br />
 
-      My career began at <u>Vectoflow GmbH</u> as an Electronics Development Engineer, where I designed aerospace/industrial electronic components and ensured compliance with DO-160 and MIL standards.
-      I specialized in EMC testing according to CISPER and ICE standards, while troubleshooting hardware/firmware issues to improve product reliability.
+      My career began as an intern at <u>Practo Technologies</u>, where I contributed to improving healthcare technology, 
+      from enhancing user experiences to optimizing app performance. I then transitioned to <u>Zinemind Technologies</u>, 
+      where I engineered cross-platform apps for industries ranging from sports ERP to aerospace. 
+      I have developed secure mobile applications, crafted APIs for seamless data integration, and built real estate and aviation management systems.
 
       <br /><br />
 
-      At <u>Solarnative GmbH</u> as an Embedded System Developer, I focused on microcontroller firmware development, micro-inverter optimization, and wireless communication interfaces (LTE, LoRa).
-      I also conducted hardware validation using advanced lab equipment including spectrum analyzers and oscilloscopes.
+      Currently, at <u>Actifi, Inc.</u>, I'm refining my skills in full-stack development, working on JavaScript-based assessment tools akin to Google Forms,
+      and creating interactive features for financial advisors. My side project, a Daily Question-Answer Application, utilizes 
+      <b>Flask</b>, <b>SQLite</b>, and <b>Chart.js</b> to visualize user trends, further expanding my expertise in web technologies.
 
       <br /><br />
 
-      As an <u>IoT Engineer at Code 19</u>, I led full-cycle IoT product development from concept to deployment, including prototyping, architecture design, and developing plug-and-play industrial IoT solutions.
-      My expertise includes power electronics systems design with AC/DC, DC/AC, and DC/DC converters.
+      I hold a <b>Bachelor's degree in Computer Science</b> from <u>REVA University</u>, Bangalore, and a <b>Diploma in Computer Science</b> 
+      from <u>Bapuji Polytechnic</u>, Davangere. I am also proficient in <b>Python</b>, <b>Java</b>, <b>Kotlin</b>, <b>PHP</b>, and various tools like 
+      <b>GitHub</b>, <b>Microsoft Visual Studio</b>, and <b>Postman</b>.
 
       <br /><br />
 
-      I hold a <b>B.Sc. in Electrical and Electronics Engineering</b> from <u>Daffodil International University</u> and a <b>Diploma in Electrical Engineering</b> from <u>Chittagong Polytechnic Institute</u>.
-      My technical skills span bare-metal & RTOS firmware development, high-speed PCB design, EMC/EMI testing, and working with tools like KiCAD, Altium, and LTspice.
+      With a well-rounded foundation in multiple programming languages and tools, I translate complex problems into innovative digital solutions.
 
       <br /><br />
 
-      With a proven track record in embedded systems and IoT solutions, I bridge the gap between hardware and software to create innovative technological solutions.
+      Let's connect and embark on new ventures together!
     `,
-    footerText: `Engineering is not just my profession - it's my passion. I thrive on solving complex technical challenges and creating efficient embedded solutions.
-                <br /><br />
-                Whether it's optimizing power circuits or developing robust IoT systems, I approach every project with precision and creativity.
-                <br /><br />
-                Let's connect to discuss how my skills in embedded systems can contribute to your next innovative project.
+    footerText: `Sometimes it is hard to introduce yourself because you know
+                yourself so well that you do not know where to start with. <br />
+                Let me give a try to see what kind of image you have about me
+                through my self-description. I hope that my impression about
+                myself and your impression about me are not so different.<br />
+                <br />
+
+                If you are interested in knowing more, contact me. Do not expect
+                too much, and keep your sense of humor.
                 `,
     contact: {
-      phone: "+49 (0)17631152823",
-      whatsapp: "+49 (0)17631152823",
-      email: "anaetcoj@gmail.com",
-      address: "63067 Offenbach Am Main, Germany"
+      phone: "+1 7039998663",
+      whatsapp: "+91 9916687670",
+      email: "pruthvirajam95@gmail.com",
     },
+
     socialLinks: {
       github: {
-        url: "https://github.com/jewel3g",
-        username: "jewel3g"
+        url: "https://github.com/Pruthviraj-Guddu",
+        username: "Pruthviraj-Guddu",
       },
       linkedin: {
-        username: "MD Anaet Ullah",
-        url: "https://linkedin.com/in/jewel3g"
+        username: "pruthvirajma",
+        url: "https://www.linkedin.com/in/pruthvirajma",
       },
-      email: "mailto:anaetcoj@gmail.com",
+      //email: "mailto:pruthvirajam95@gmail.com",
       digitalresume: {
-        url: "./MDAnaet_Ullah_Resume.pdf",
-      }
+        url: "./Pruthviraj_resume_laTex.pdf",
+      },
+      instagram: {
+        username: "pruthviraj_guddu",
+        url: "https://www.instagram.com/pruthviraj_guddu/",
+      },
+      facebook: {
+        username: "Pruthviraj.Guddu",
+        url: "https://www.facebook.com/Pruthviraj.Guddu",
+      },
+      pinterest: {
+        username: "pruthvigudduraj",
+        url: "https://in.pinterest.com/pruthvigudduraj/",
+      },
+      quora: {
+        username: "Pruthviraj-Guddu",
+        url: "https://www.quora.com/profile/Pruthviraj-Guddu",
+      },
+      stackoverflow: {
+        username: "pruthviraj-guddu",
+        url: "https://stackoverflow.com/users/4413573/pruthviraj-guddu",
+      },
+      spotify: {
+        username: "pruthviraj-guddu",
+        url: "https://open.spotify.com/user/380kykw88jo9graxxyk4xch45",
+      },
+
+      //https://open.spotify.com/user/380kykw88jo9graxxyk4xch45
     },
   },
-  experience: [
-    {
-      company: "Vectoflow GmbH",
-      position: "Electronics Development Engineer",
-      location: "Gilching, Germany",
-      period: "",
-      responsibilities: [
-        "Designed and developed aerospace/industrial electronic components, ensuring regulatory compliance",
-        "Tested and validated components for performance, reliability, and standards adherence",
-        "Supported firmware development, integration testing, and debugging",
-        "Conducted quality inspections per DO-160 and MIL standards",
-        "Troubleshot hardware/firmware issues, improving product reliability",
-        "Performed EMC tests according to CISPER and ICE standards"
-      ]
-    },
-    {
-      company: "Solarnative GmbH",
-      position: "Embedded System Developer",
-      location: "Lohfelden, Germany",
-      period: "",
-      responsibilities: [
-        "Microcontroller firmware development and programming",
-        "Micro-inverter functionality design and optimization",
-        "Wireless communication interface development (LTE, LoRa)",
-        "Technical documentation for hardware and software systems",
-        "Electronic circuit design and PCB layout development",
-        "Hardware validation using lab equipment (spectrum analyzer, oscilloscope, LCR meter)"
-      ]
-    },
-    {
-      company: "Code 19",
-      position: "IoT Engineer",
-      location: "Dhaka, Bangladesh",
-      period: "",
-      responsibilities: [
-        "Led IoT product development covering embedded systems and wireless communication",
-        "Owned full project lifecycle from concept to deployment",
-        "Developed plug-and-play industrial IoT solutions",
-        "Designed power electronics systems including AC/DC, DC/AC converters",
-        "Maintained compliance with evolving IoT standards and protocols"
-      ]
-    }
-  ],
-  projects: [
-    {
-      title: "Reactive Power Correction for On-grid Inverter",
-      description: "Designed closed-loop control algorithms (DSP-based) to maintain PF >0.98. Cut line losses by 15% via optimized reactive power injection."
-    },
-    {
-      title: "High-Efficiency Power Circuit Design",
-      description: "Developed buck/boost converters (DC-DC) and AC-DC supplies with >92% efficiency. Improved thermal performance by 20% through PCB layout optimization."
-    },
-    {
-      title: "Vector DAQ 2",
-      description: "Designed custom PCB with 24-bit ADC and anti-aliasing filters for precision DAQ integration. Achieved <0.5% repeatability in extreme conditions (-20°C to +85°C)."
-    },
-    {
-      title: "IoT Smart Parking System",
-      description: "Engineered custom PCB in KiCAD (12V->3.3V DC-DC, 93% efficiency). Integrated RFID access control (RC522) and cloud connectivity (Firebase)."
-    }
-  ],
+
   education: [
     {
-      endDate: "",
-      startDate: "",
-      area: "Electrical and Electronics Engineering",
-      studyType: "B.Sc.",
-      institution: "Daffodil International University, Dhaka, Bangladesh"
+      endDate: "2024",
+      startDate: "2023",
+      area: "computer Science",
+      studyType: "Master of Science",
+      institution: "Drexel University, Philadelphia, United States",
+      gpa: "3.42",
     },
     {
-      endDate: "",
-      startDate: "",
-      area: "Electrical Engineering",
+      endDate: "2020",
+      startDate: "2017",
+      area: "Computer Science and Engineering",
+      studyType: "Bachelor of Technology",
+      institution: "REVA University, Bangalore, India",
+      //gpa: "3.78",
+    },
+    {
+      endDate: "2014",
+      startDate: "2017",
+      area: "Computer Science and Engineering",
       studyType: "Diploma",
-      institution: "Chittagong Polytechnic Institute, Chattogram, Bangladesh"
-    }
-  ],
-  skills: {
-    technical: [
-      "Embedded C/C++", "ARM/AVR/STM32", "RTOS", "BLE/IoT Protocols",
-      "PCB Design (KiCAD/Altium)", "Analog/Digital Circuits", "Signal Integrity",
-      "EMI Reduction", "EMC/EMI Testing", "Power Efficiency Tuning"
-    ],
-    tools: [
-      "KiCAD", "LTspice", "Eagle", "Oscilloscopes", "Logic Analyzers", 
-      "Spectrum Analyzers", "Signal Generators"
-    ],
-    microcontrollers: [
-      "STM32", "AVR", "PIC", "NodeMCU", "Infineon"
-    ],
-    languages: [
-      "English (Professional)", "Bangla (Native)", "German (A1)"
-    ]
-  },
-  certifications: [
-    {
-      name: "Industrial Training",
-      issuer: "Eastern Cables Limited"
+      institution: "Bapuji Polytechnic, Davangere, India",
+      //gpa: "3.78",
     },
-    {
-      name: "General Mechanics (GM)",
-      issuer: "Bangladesh German Technical Training Center"
-    },
-    {
-      name: "Recognition of Prior Learning (RPL Level-1)",
-      issuer: "Bangladesh German Technical Training Center"
-    },
-    {
-      name: "Masterclass on Internet of Things (IoT)",
-      issuer: "Bangladesh Skill Development Institute"
-    }
-  ],
-  conferences: [
-    "Project Competition & Maker Faire 2018 - IEEE Conference | NSBM Green University, Sri Lanka",
-    "Tech Fest 2018-2019 - Hosted by IIT Bombay, India",
-    "NASA Space Apps Challenge 2019 - Organized by BASIS, Bangladesh"
   ],
   references: [
     {
-      name: "Weik Axel",
-      position: "Software Engineer",
-      company: "Robert Bosch GMBH",
-      contact: "axel.weik@de.bosch.com"
+      reference: "",
+      name: "",
     },
     {
-      name: "Tobias Ebus",
-      position: "Head of Development",
-      company: "Vectoflow GmbH",
-      contact: "tobiebus@web.de"
-    }
-  ]
-};
+      reference: "",
+      name: "",
+    },
+    {
+      reference: "",
+      name: "",
+    },
+    {
+      reference: "",
+      name: "",
+    },
+  ],
+
+  awards: [
+    {
+      title: "",
+      awarder: "",
+    },
+  ],
   work: [
     {
       name: "BLive",
@@ -282,7 +236,7 @@ window.data = {
         "Administrative dashboard",
       ],
       img: "Images/project imgs/car.png",
-      sourceLink: "https://github.com/jewel3g/CS530-ProjectCars",
+      sourceLink: "https://github.com/Pruthviraj-Guddu/CS530-ProjectCars",
       previewLink: "",
       buttonText: "Repository 🔒",
     },
@@ -296,7 +250,7 @@ window.data = {
         "Promotes sustainability",
       ],
       img: "Images/project imgs/furniture.png",
-      sourceLink: "https://github.com/jewel3g/FurniFlexSustainability",
+      sourceLink: "https://github.com/Pruthviraj-Guddu/FurniFlexSustainability",
       previewLink: "",
       buttonText: "Repository 🔐",
     },
@@ -307,7 +261,7 @@ window.data = {
       technologies: [".NET", "C#", "Visual Studio"],
       functionality: ["Multi-client connections", "Asynchronous communication"],
       img: "Images/project imgs/chat.png",
-      sourceLink: "https://github.com/jewel3g/winChatApp",
+      sourceLink: "https://github.com/Pruthviraj-Guddu/winChatApp",
       previewLink: "",
       buttonText: "Repository 🔒",
     },
@@ -317,7 +271,7 @@ window.data = {
       description: "Created a webpage answering common student questions.",
       technologies: [".HTML", "CSS", "javaScript"],
       img: "Images/project imgs/Drexel_University_seal.svg.png",
-      sourceLink: "https://github.com/jewel3g/drexelfaq",
+      sourceLink: "https://github.com/Pruthviraj-Guddu/drexelfaq",
       previewLink: "https://pruthviraj-guddu.github.io/drexelfaq",
       buttonText: "View Page",
     },
@@ -348,8 +302,8 @@ window.data = {
       description:
         "Your all-in-one utility app for productivity and daily tools.",
       technologies: ["Flutter and Dart"],
-      img: "https://github.com/jewel3g/multitool/blob/main/assets/images/appIcon.png?raw=true",
-      sourceLink: "https://github.com/jewel3g/multitool",
+      img: "https://github.com/Pruthviraj-Guddu/multitool/blob/main/assets/images/appIcon.png?raw=true",
+      sourceLink: "https://github.com/Pruthviraj-Guddu/multitool",
       previewLink:
         "https://play.google.com/store/apps/details?id=com.pruthviraj.multitool",
       buttonText: "open playstore",
