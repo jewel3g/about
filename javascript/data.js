@@ -8,7 +8,7 @@ window.data = {
     nickname: "Jewel",
     title: "The Nerd",
     role: "",
-    profileImage: "https://github.com/jewel3g/about/blob/main/image.ico",
+    profileImage: "https://avatars.githubusercontent.com/u/21116110?v=4",
     summary: `
       My name is Pruthviraj Mundargi aka <b>Guddu</b>, a passionate software developer with a Master's in Computer Science from
       <u>Drexel University</u>, Philadelphia (July 2024). With hands-on experience in Android and cross-platform app development,
